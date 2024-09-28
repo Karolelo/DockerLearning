@@ -5,7 +5,7 @@ namespace myWebApp.Pages;
 
 public class IndexModel : PageModel
     {
-        public string StudentName { get; private set; } = "PageModel in C#";
+        public string StudentName { get; private set; } = "Testuje dupa PageModel in C#";
         private readonly ILogger<IndexModel> _logger;
         private readonly myWebApp.Data.SchoolContext _context;
 
